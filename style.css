@@ -1,5 +1,18 @@
 .drawing-art img{
     width: 100% !important;
-    height:100vh!important;
-    overflow: hidden !important;
+    height:auto !important;
+    /* overflow: hidden !important; */
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .drawing-art{
+        width: 100% !important;
+        height:auto !important;
+    }
+
+    /* .drawing-art img{
+        width: 100% !important;
+        height:80vh !important;
+        overflow: hidden !important;
+    } */
 }
