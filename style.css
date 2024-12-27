@@ -7,12 +7,12 @@
 @media (min-width:320px) and (max-width:480px){
     .drawing-art{
         width: 100% !important;
-        height:auto !important;
+        /* height:auto !important; */
     }
 
-    /* .drawing-art img{
+    .drawing-art img{
         width: 100% !important;
         height:80vh !important;
         overflow: hidden !important;
-    } */
+    }
 }
